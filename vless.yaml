@@ -1,0 +1,16 @@
+proxies:
+- name: sg1.vless.co
+  server: sg1.vless.co
+  port: 443
+  type: vless
+  uuid: 81f1f510-3ca7-4734-8956-0f4fce670af5
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  servername: open.spotify.com
+  network: ws
+  ws-opts:
+    path: /fastssh/okezone1/62bc245445a35/
+    headers:
+      Host: open.spotify.com
+  udp: true
